@@ -17,8 +17,16 @@ A CLI tool that wraps SAST scanners and uses LLMs to filter false positives and 
 
 ## Installation
 
+Install VulnSink globally from npm:
+
 ```bash
 npm install -g vulnsink
+```
+
+Or use it directly with npx without installing:
+
+```bash
+npx vulnsink scan
 ```
 
 ## Quick Start
