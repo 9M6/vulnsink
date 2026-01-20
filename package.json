@@ -4,7 +4,7 @@
   "description": "SAST + LLM Security Scanner that filters false positives and auto-fixes issues",
   "type": "module",
   "bin": {
-    "vulnsink": "./dist/cli/index.js"
+    "vulnsink": "dist/cli/index.js"
   },
   "scripts": {
     "build": "tsc",
@@ -29,7 +29,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/9M6/vulnsink.git"
+    "url": "git+https://github.com/9M6/vulnsink.git"
   },
   "bugs": {
     "url": "https://github.com/9M6/vulnsink/issues"
