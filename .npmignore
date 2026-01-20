@@ -1,0 +1,19 @@
+# Source files
+src/
+
+# Test files
+**/*.test.*
+
+# Example files (for development only)
+examples/
+
+# Development files
+tsconfig.json
+.env
+
+# CI/CD
+.github/
+
+# Editor directories
+.vscode/
+.idea/
