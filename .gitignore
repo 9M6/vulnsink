@@ -1,0 +1,8 @@
+node_modules/
+dist/
+*.bak
+*.log
+.env
+.DS_Store
+.idea/
+vulnsink-results.json

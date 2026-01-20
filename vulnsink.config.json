@@ -1,0 +1,25 @@
+{
+  "tools": [
+    {
+      "name": "semgrep",
+      "command": "semgrep scan --sarif",
+      "outputFormat": "sarif"
+    }
+  ],
+  "llm": {
+    "provider": "openrouter",
+    "model": "anthropic/claude-3.5-sonnet",
+    "apiKey": "${OPENROUTER_API_KEY}"
+  },
+  "filtering": {
+    "confidenceThreshold": 70,
+    "showFalsePositives": true
+  },
+  "fixing": {
+    "autoFix": false,
+    "requireConfirmation": true,
+    "createBackup": true,
+    "minConfidenceToFix": 80
+  },
+  "contextLines": 20
+}
