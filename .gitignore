@@ -2,6 +2,7 @@ node_modules/
 dist/
 *.bak
 *.log
+*.tgz
 .env
 .DS_Store
 .idea/
